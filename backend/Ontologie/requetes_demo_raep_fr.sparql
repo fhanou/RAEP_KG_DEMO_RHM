@@ -1,0 +1,77 @@
+PREFIX raep: <http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+
+################################################################################
+# 1. Compter les individus par type d'ouvrage ou d'entite administrative
+################################################################################
+
+SELECT ?classe (COUNT(?individu) AS ?nombre)
+WHERE {
+  ?individu rdf:type ?classe .
+  VALUES ?classe {
+    raep:Commune
+    raep:Quartier
+    raep:Captage
+    raep:StationTraitement
+    raep:Reservoir
+    raep:PointDistribution
+    raep:ConduiteDistribution
+    raep:EauBrute
+    raep:EauTraitee
+    raep:EauDistribuee
+  }
+}
+GROUP BY ?classe
+ORDER BY ?classe
+
+################################################################################
+# 2. Lister les reservoirs avec leur quartier
+################################################################################
+
+SELECT ?reservoir ?nomReservoir ?quartier ?nomQuartier ?volume
+WHERE {
+  ?reservoir rdf:type raep:Reservoir ;
+             raep:libelle ?nomReservoir ;
+             raep:seSitueDans ?quartier .
+  OPTIONAL { ?reservoir raep:volumeM3 ?volume . }
+  OPTIONAL { ?quartier raep:libelle ?nomQuartier . }
+}
+ORDER BY ?reservoir
+
+################################################################################
+# 3. Lister les points de distribution avec quantite d'eau distribuee
+################################################################################
+
+SELECT ?observation ?date ?quantite ?point ?refBorne ?quartier
+WHERE {
+  ?observation rdf:type raep:EauDistribuee ;
+               raep:dateObservation ?date ;
+               raep:quantite ?quantite ;
+               raep:estEnregistrePar ?point .
+  OPTIONAL { ?point raep:referenceBorne ?refBorne . }
+  OPTIONAL { ?point raep:seSitueDans ?quartier . }
+}
+ORDER BY ?date ?point
+LIMIT 50
+
+################################################################################
+# 4. Afficher les connexions du reseau
+################################################################################
+
+SELECT ?ouvrageSource ?ouvrageCible
+WHERE {
+  ?ouvrageSource raep:connecteA ?ouvrageCible .
+}
+LIMIT 100
+
+################################################################################
+# 5. Recuperer les geometries WKT disponibles
+################################################################################
+
+SELECT ?ouvrage ?wkt
+WHERE {
+  ?ouvrage geo:hasGeometry/geo:asWKT ?wkt .
+}
+LIMIT 100
+

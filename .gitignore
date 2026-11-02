@@ -1,0 +1,22 @@
+# Python virtualenv
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node modules & build
+node_modules/
+dist/
+build/
+.vite/
+
+# Env & OS
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Large raw dumps (> 100MB)
+backend/Ontologie/graphe_raep_rhm.ttl
+backend/Ontologie/individus_raep_rhm.ttl
+*.zip

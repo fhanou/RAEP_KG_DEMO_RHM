@@ -1,0 +1,3040 @@
+{
+  "generated_at": "2026-06-07T10:47:20",
+  "source": "AEP_HARMONISE.sql",
+  "class_counts": [
+    {
+      "classe": "raep:Commune",
+      "nombre": 92
+    },
+    {
+      "classe": "raep:Quartier",
+      "nombre": 787
+    },
+    {
+      "classe": "raep:Captage",
+      "nombre": 8
+    },
+    {
+      "classe": "raep:StationTraitement",
+      "nombre": 3
+    },
+    {
+      "classe": "raep:Reservoir",
+      "nombre": 6
+    },
+    {
+      "classe": "raep:PointDistribution",
+      "nombre": 11226
+    },
+    {
+      "classe": "raep:ConduiteAmenee",
+      "nombre": 0
+    },
+    {
+      "classe": "raep:ConduiteAdduction",
+      "nombre": 0
+    },
+    {
+      "classe": "raep:ConduiteDistribution",
+      "nombre": 528
+    },
+    {
+      "classe": "raep:EauBrute",
+      "nombre": 8766
+    },
+    {
+      "classe": "raep:EauTraitee",
+      "nombre": 8766
+    },
+    {
+      "classe": "raep:EauDistribuee",
+      "nombre": 526724
+    }
+  ],
+  "individuals_by_class": [
+    {
+      "class": "raep:Commune",
+      "label": "Commune",
+      "group": "EntiteAdministrative",
+      "count": 92,
+      "individuals": [
+        {
+          "id": "raep:Commune_1",
+          "label": "AMBALAVAO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_1"
+        },
+        {
+          "id": "raep:Commune_2",
+          "label": "AMBINANINDOVOKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_2"
+        },
+        {
+          "id": "raep:Commune_3",
+          "label": "AMBINANIROA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_3"
+        },
+        {
+          "id": "raep:Commune_4",
+          "label": "AMBOHIMAHAMASINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_4"
+        },
+        {
+          "id": "raep:Commune_5",
+          "label": "KIRANO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_5"
+        },
+        {
+          "id": "raep:Commune_6",
+          "label": "AMBOHIMANDROSO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_6"
+        },
+        {
+          "id": "raep:Commune_26",
+          "label": "AMBOHIMAHASOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_26"
+        },
+        {
+          "id": "raep:Commune_27",
+          "label": "AMBOHINAMBOARINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_27"
+        },
+        {
+          "id": "raep:Commune_7",
+          "label": "ANDRAINJATO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_7"
+        },
+        {
+          "id": "raep:Commune_8",
+          "label": "MAHAZOARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_8"
+        },
+        {
+          "id": "raep:Commune_40",
+          "label": "FIADANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_40"
+        },
+        {
+          "id": "raep:Commune_9",
+          "label": "ANJOMA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_9"
+        },
+        {
+          "id": "raep:Commune_10",
+          "label": "ANKARAMENA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_10"
+        },
+        {
+          "id": "raep:Commune_11",
+          "label": "BESOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_11"
+        },
+        {
+          "id": "raep:Commune_12",
+          "label": "FENOARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_12"
+        },
+        {
+          "id": "raep:Commune_13",
+          "label": "MAHAZONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_13"
+        },
+        {
+          "id": "raep:Commune_51",
+          "label": "AMBALAMIDERA II",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_51"
+        },
+        {
+          "id": "raep:Commune_14",
+          "label": "MANAMISOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_14"
+        },
+        {
+          "id": "raep:Commune_15",
+          "label": "NASANDRATRONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_15"
+        },
+        {
+          "id": "raep:Commune_16",
+          "label": "MIARINARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_16"
+        },
+        {
+          "id": "raep:Commune_17",
+          "label": "SENDRISOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_17"
+        },
+        {
+          "id": "raep:Commune_18",
+          "label": "VOHITSAOKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_18"
+        },
+        {
+          "id": "raep:Commune_19",
+          "label": "NAMOLY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_19"
+        },
+        {
+          "id": "raep:Commune_20",
+          "label": "VOLAMENA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_20"
+        },
+        {
+          "id": "raep:Commune_21",
+          "label": "IARINTSENA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_21"
+        },
+        {
+          "id": "raep:Commune_22",
+          "label": "AMBALAKINDRESY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_22"
+        },
+        {
+          "id": "raep:Commune_23",
+          "label": "SOATANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_23"
+        },
+        {
+          "id": "raep:Commune_24",
+          "label": "AMBATOSOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_24"
+        },
+        {
+          "id": "raep:Commune_25",
+          "label": "AMBALAMIDERA AMBOHIMANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_25"
+        },
+        {
+          "id": "raep:Commune_28",
+          "label": "AMPITANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_28"
+        },
+        {
+          "id": "raep:Commune_68",
+          "label": "FANDRANDAVA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_68"
+        },
+        {
+          "id": "raep:Commune_29",
+          "label": "ANKERANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_29"
+        },
+        {
+          "id": "raep:Commune_30",
+          "label": "BEFETA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_30"
+        },
+        {
+          "id": "raep:Commune_75",
+          "label": "TAINDAMBO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_75"
+        },
+        {
+          "id": "raep:Commune_76",
+          "label": "ANDRANOMIDITRA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_76"
+        },
+        {
+          "id": "raep:Commune_31",
+          "label": "CAMP ROBIN",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_31"
+        },
+        {
+          "id": "raep:Commune_32",
+          "label": "ISAKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_32"
+        },
+        {
+          "id": "raep:Commune_33",
+          "label": "IKALALAO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_33"
+        },
+        {
+          "id": "raep:Commune_80",
+          "label": "MANEVA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_80"
+        },
+        {
+          "id": "raep:Commune_81",
+          "label": "SOAINDRANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_81"
+        },
+        {
+          "id": "raep:Commune_34",
+          "label": "MORAFENO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_34"
+        },
+        {
+          "id": "raep:Commune_35",
+          "label": "SAHATONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_35"
+        },
+        {
+          "id": "raep:Commune_36",
+          "label": "SAHAVE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_36"
+        },
+        {
+          "id": "raep:Commune_37",
+          "label": "VOHIPOSA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_37"
+        },
+        {
+          "id": "raep:Commune_38",
+          "label": "VOHITRARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_38"
+        },
+        {
+          "id": "raep:Commune_39",
+          "label": "ANKAFINA TSARAFIDY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_39"
+        },
+        {
+          "id": "raep:Commune_41",
+          "label": "MANANDROY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_41"
+        },
+        {
+          "id": "raep:Commune_42",
+          "label": "FIANARANTSOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_42"
+        },
+        {
+          "id": "raep:Commune_43",
+          "label": "AMBATOMAINTY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_43"
+        },
+        {
+          "id": "raep:Commune_44",
+          "label": "FITAMPITO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_44"
+        },
+        {
+          "id": "raep:Commune_45",
+          "label": "IKALAMAVONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_45"
+        },
+        {
+          "id": "raep:Commune_46",
+          "label": "MANGIDY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_46"
+        },
+        {
+          "id": "raep:Commune_47",
+          "label": "TANAMARINA SAKAY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_47"
+        },
+        {
+          "id": "raep:Commune_48",
+          "label": "SOLILA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_48"
+        },
+        {
+          "id": "raep:Commune_49",
+          "label": "TANAMARINA BEKISOPA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_49"
+        },
+        {
+          "id": "raep:Commune_50",
+          "label": "TSITONDROINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_50"
+        },
+        {
+          "id": "raep:Commune_85",
+          "label": "IHAZOARA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_85"
+        },
+        {
+          "id": "raep:Commune_52",
+          "label": "AMBONDRONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_52"
+        },
+        {
+          "id": "raep:Commune_53",
+          "label": "ANDOHARANOMAITSO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_53"
+        },
+        {
+          "id": "raep:Commune_54",
+          "label": "ANJOMA ITSARA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_54"
+        },
+        {
+          "id": "raep:Commune_55",
+          "label": "ANKARINARIVO MANIRISOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_55"
+        },
+        {
+          "id": "raep:Commune_57",
+          "label": "IAVONOMBY VOHIBOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_57"
+        },
+        {
+          "id": "raep:Commune_56",
+          "label": "FANJAKANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_56"
+        },
+        {
+          "id": "raep:Commune_58",
+          "label": "ISORANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_58"
+        },
+        {
+          "id": "raep:Commune_66",
+          "label": "ANDRAINJATO EST",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_66"
+        },
+        {
+          "id": "raep:Commune_67",
+          "label": "ANDROY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_67"
+        },
+        {
+          "id": "raep:Commune_59",
+          "label": "ANDREAMALAMA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_59"
+        },
+        {
+          "id": "raep:Commune_60",
+          "label": "SAFATA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_60"
+        },
+        {
+          "id": "raep:Commune_61",
+          "label": "ALAKAMISY AMBOHIMAHA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_61"
+        },
+        {
+          "id": "raep:Commune_62",
+          "label": "ALATSINAINY IALAMARINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_62"
+        },
+        {
+          "id": "raep:Commune_63",
+          "label": "AMBALAKELY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_63"
+        },
+        {
+          "id": "raep:Commune_64",
+          "label": "AMBALAMAHASOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_64"
+        },
+        {
+          "id": "raep:Commune_65",
+          "label": "ANDRAINJATO CENTRE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_65"
+        },
+        {
+          "id": "raep:Commune_69",
+          "label": "IALANANINDRO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_69"
+        },
+        {
+          "id": "raep:Commune_70",
+          "label": "MAHATSINJONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_70"
+        },
+        {
+          "id": "raep:Commune_71",
+          "label": "SAHAMBAVY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_71"
+        },
+        {
+          "id": "raep:Commune_72",
+          "label": "IVOAMBA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_72"
+        },
+        {
+          "id": "raep:Commune_73",
+          "label": "VINANINORO ANDREFANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_73"
+        },
+        {
+          "id": "raep:Commune_74",
+          "label": "AMPATSY AMPANGABE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_74"
+        },
+        {
+          "id": "raep:Commune_77",
+          "label": "ANDRANOVORIVATO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune_77"
+        }
+      ]
+    },
+    {
+      "class": "raep:Quartier",
+      "label": "Quartier",
+      "group": "EntiteAdministrative",
+      "count": 787,
+      "individuals": [
+        {
+          "id": "raep:Quartier_1",
+          "label": "FKT TSARANORO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_1"
+        },
+        {
+          "id": "raep:Quartier_2",
+          "label": "FKT VATOFOTSY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_2"
+        },
+        {
+          "id": "raep:Quartier_3",
+          "label": "FKT BEMAHALANJA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_3"
+        },
+        {
+          "id": "raep:Quartier_4",
+          "label": "FKT MAROPARASY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_4"
+        },
+        {
+          "id": "raep:Quartier_5",
+          "label": "FKT ALATSINAINY FONENANTSOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_5"
+        },
+        {
+          "id": "raep:Quartier_6",
+          "label": "FKT SOAMANANDRAY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_6"
+        },
+        {
+          "id": "raep:Quartier_7",
+          "label": "FKT AMBALAMAHASOA SUD",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_7"
+        },
+        {
+          "id": "raep:Quartier_8",
+          "label": "FKT TELOAMBINIFOLO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_8"
+        },
+        {
+          "id": "raep:Quartier_9",
+          "label": "FKT AMBALALOVA AVARATRA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_9"
+        },
+        {
+          "id": "raep:Quartier_10",
+          "label": "FKT AMBOHITSOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_10"
+        },
+        {
+          "id": "raep:Quartier_11",
+          "label": "FKT ALATSINAINY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_11"
+        },
+        {
+          "id": "raep:Quartier_12",
+          "label": "FKT EZAKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_12"
+        },
+        {
+          "id": "raep:Quartier_13",
+          "label": "FKT ATSINANAMANDA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_13"
+        },
+        {
+          "id": "raep:Quartier_14",
+          "label": "FKT AMBALAMAHASOA NORD",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_14"
+        },
+        {
+          "id": "raep:Quartier_15",
+          "label": "FKT SAHAMASY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_15"
+        },
+        {
+          "id": "raep:Quartier_16",
+          "label": "FKT ANKOFIKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_16"
+        },
+        {
+          "id": "raep:Quartier_17",
+          "label": "FKT ANDROKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_17"
+        },
+        {
+          "id": "raep:Quartier_18",
+          "label": "FKT AMBOHIJAFY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_18"
+        },
+        {
+          "id": "raep:Quartier_19",
+          "label": "FKT AMPANAOVANTSAVONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_19"
+        },
+        {
+          "id": "raep:Quartier_20",
+          "label": "FKT ANTSENANOMBY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_20"
+        },
+        {
+          "id": "raep:Quartier_21",
+          "label": "FKT VONDROKELY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_21"
+        },
+        {
+          "id": "raep:Quartier_22",
+          "label": "FKT MIARAMANDROSO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_22"
+        },
+        {
+          "id": "raep:Quartier_23",
+          "label": "FKT VOLAFOTSY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_23"
+        },
+        {
+          "id": "raep:Quartier_24",
+          "label": "FKT FIRARIANTSOA MIARINARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_24"
+        },
+        {
+          "id": "raep:Quartier_25",
+          "label": "FKT VOHIDROA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_25"
+        },
+        {
+          "id": "raep:Quartier_26",
+          "label": "FKT ANDRAINARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_26"
+        },
+        {
+          "id": "raep:Quartier_27",
+          "label": "FKT MIRARISOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_27"
+        },
+        {
+          "id": "raep:Quartier_28",
+          "label": "FKT FIJOROANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_28"
+        },
+        {
+          "id": "raep:Quartier_105",
+          "label": "FKT SAKAVIRO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_105"
+        },
+        {
+          "id": "raep:Quartier_29",
+          "label": "FKT MANDAZAKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_29"
+        },
+        {
+          "id": "raep:Quartier_30",
+          "label": "FKT SAMIMASINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_30"
+        },
+        {
+          "id": "raep:Quartier_31",
+          "label": "FKT BOKONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_31"
+        },
+        {
+          "id": "raep:Quartier_32",
+          "label": "FKT SOAREA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_32"
+        },
+        {
+          "id": "raep:Quartier_33",
+          "label": "FKT AMBINANIROA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_33"
+        },
+        {
+          "id": "raep:Quartier_34",
+          "label": "FKT RANOTSARA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_34"
+        },
+        {
+          "id": "raep:Quartier_35",
+          "label": "FKT AMBAHO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_35"
+        },
+        {
+          "id": "raep:Quartier_36",
+          "label": "FKT IAVOMALAZA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_36"
+        },
+        {
+          "id": "raep:Quartier_37",
+          "label": "FKT AMBOHIMIADANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_37"
+        },
+        {
+          "id": "raep:Quartier_38",
+          "label": "FKT TAMBOHOBE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_38"
+        },
+        {
+          "id": "raep:Quartier_147",
+          "label": "FKT VONDROKELY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_147"
+        },
+        {
+          "id": "raep:Quartier_39",
+          "label": "FKT ITAOLANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_39"
+        },
+        {
+          "id": "raep:Quartier_40",
+          "label": "FKT SOATSIHANINO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_40"
+        },
+        {
+          "id": "raep:Quartier_41",
+          "label": "FKT ANDOHANIMANANATANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_41"
+        },
+        {
+          "id": "raep:Quartier_42",
+          "label": "FKT AMBOHIMAHAMASINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_42"
+        },
+        {
+          "id": "raep:Quartier_43",
+          "label": "FKT ANJAMANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_43"
+        },
+        {
+          "id": "raep:Quartier_44",
+          "label": "FKT TOKOAMIVONDRONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_44"
+        },
+        {
+          "id": "raep:Quartier_45",
+          "label": "FKT FIRARIANTSOA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_45"
+        },
+        {
+          "id": "raep:Quartier_46",
+          "label": "FKT AMBOHIPAHA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_46"
+        },
+        {
+          "id": "raep:Quartier_47",
+          "label": "FKT MIRAIHERY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_47"
+        },
+        {
+          "id": "raep:Quartier_48",
+          "label": "FKT AMBOHITRAVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_48"
+        },
+        {
+          "id": "raep:Quartier_49",
+          "label": "FKT ANTANDINDO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_49"
+        },
+        {
+          "id": "raep:Quartier_50",
+          "label": "FKT LOMAKA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_50"
+        },
+        {
+          "id": "raep:Quartier_51",
+          "label": "FKT TSARAFARA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_51"
+        },
+        {
+          "id": "raep:Quartier_52",
+          "label": "FKT VOHITRARIVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_52"
+        },
+        {
+          "id": "raep:Quartier_53",
+          "label": "FKT ANKARINARIVO ANDOHARANO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_53"
+        },
+        {
+          "id": "raep:Quartier_54",
+          "label": "FKT TSARAMANDROSO FELIMAHA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_54"
+        },
+        {
+          "id": "raep:Quartier_55",
+          "label": "FKT AVARADRANO AMBALAVAOKELY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_55"
+        },
+        {
+          "id": "raep:Quartier_56",
+          "label": "FKT ANDREFAKIDONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_56"
+        },
+        {
+          "id": "raep:Quartier_57",
+          "label": "FKT ANKAZOFADY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_57"
+        },
+        {
+          "id": "raep:Quartier_58",
+          "label": "FKT VOHIBOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_58"
+        },
+        {
+          "id": "raep:Quartier_59",
+          "label": "FKT MITSINJORANO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_59"
+        },
+        {
+          "id": "raep:Quartier_60",
+          "label": "FKT AMBOHIMANDROSO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_60"
+        },
+        {
+          "id": "raep:Quartier_61",
+          "label": "FKT ANDRAINJATO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_61"
+        },
+        {
+          "id": "raep:Quartier_62",
+          "label": "FKT FIARENANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_62"
+        },
+        {
+          "id": "raep:Quartier_63",
+          "label": "FKT MAHATSINJONY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_63"
+        },
+        {
+          "id": "raep:Quartier_64",
+          "label": "FKT TANAMBAO TSIAKARY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_64"
+        },
+        {
+          "id": "raep:Quartier_65",
+          "label": "FKT SERANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_65"
+        },
+        {
+          "id": "raep:Quartier_66",
+          "label": "FKT TSIKAHOE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_66"
+        },
+        {
+          "id": "raep:Quartier_67",
+          "label": "FKT AMBALABETSILA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_67"
+        },
+        {
+          "id": "raep:Quartier_68",
+          "label": "FKT AMPANENJANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_68"
+        },
+        {
+          "id": "raep:Quartier_69",
+          "label": "FKT RANOMAITSO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_69"
+        },
+        {
+          "id": "raep:Quartier_719",
+          "label": "FKT VOHITSOA MAHARITRA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_719"
+        },
+        {
+          "id": "raep:Quartier_70",
+          "label": "FKT ANKAZOSOARAVINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_70"
+        },
+        {
+          "id": "raep:Quartier_71",
+          "label": "FKT ANGAVO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_71"
+        },
+        {
+          "id": "raep:Quartier_72",
+          "label": "FKT IARINOMBY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_72"
+        },
+        {
+          "id": "raep:Quartier_73",
+          "label": "FKT ANAODY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_73"
+        },
+        {
+          "id": "raep:Quartier_74",
+          "label": "FKT IFANDANA EST",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_74"
+        },
+        {
+          "id": "raep:Quartier_75",
+          "label": "FKT AMBATOMENA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_75"
+        },
+        {
+          "id": "raep:Quartier_76",
+          "label": "FKT SOAMANANDRAY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_76"
+        },
+        {
+          "id": "raep:Quartier_77",
+          "label": "FKT AMBALAMAHAVELONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier_77"
+        }
+      ]
+    },
+    {
+      "class": "raep:Captage",
+      "label": "Captage",
+      "group": "InfrastructureHydraulique",
+      "count": 8,
+      "individuals": [
+        {
+          "id": "raep:Captage_1",
+          "label": "ANTARAMBIBY",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_1"
+        },
+        {
+          "id": "raep:Captage_2",
+          "label": "BARRAGE 6 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_2"
+        },
+        {
+          "id": "raep:Captage_3",
+          "label": "BARRAGE 5 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_3"
+        },
+        {
+          "id": "raep:Captage_4",
+          "label": "BARRAGE 2 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_4"
+        },
+        {
+          "id": "raep:Captage_5",
+          "label": "BARRAGE 4 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_5"
+        },
+        {
+          "id": "raep:Captage_6",
+          "label": "BARRAGE 3 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_6"
+        },
+        {
+          "id": "raep:Captage_7",
+          "label": "ANKIDONA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_7"
+        },
+        {
+          "id": "raep:Captage_8",
+          "label": "BARRAGE 1 - VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage_8"
+        }
+      ]
+    },
+    {
+      "class": "raep:StationTraitement",
+      "label": "Station de traitement",
+      "group": "InfrastructureHydraulique",
+      "count": 3,
+      "individuals": [
+        {
+          "id": "raep:StationTraitement_1",
+          "label": "VATOSOLA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/StationTraitement_1"
+        },
+        {
+          "id": "raep:StationTraitement_2",
+          "label": "TOMBANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/StationTraitement_2"
+        },
+        {
+          "id": "raep:StationTraitement_3",
+          "label": "AMBANIMASO",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/StationTraitement_3"
+        }
+      ]
+    },
+    {
+      "class": "raep:Reservoir",
+      "label": "Reservoir",
+      "group": "InfrastructureHydraulique",
+      "count": 6,
+      "individuals": [
+        {
+          "id": "raep:Reservoir_1",
+          "label": "AMPANENJANANA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_1"
+        },
+        {
+          "id": "raep:Reservoir_2",
+          "label": "ROVA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_2"
+        },
+        {
+          "id": "raep:Reservoir_3",
+          "label": "MORTHOMME",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_3"
+        },
+        {
+          "id": "raep:Reservoir_4",
+          "label": "ILAINDASTRA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_4"
+        },
+        {
+          "id": "raep:Reservoir_5",
+          "label": "MAHAMANINA",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_5"
+        },
+        {
+          "id": "raep:Reservoir_6",
+          "label": "CHU TAMBOHOBE",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir_6"
+        }
+      ]
+    },
+    {
+      "class": "raep:PointDistribution",
+      "label": "Point de distribution",
+      "group": "InfrastructureHydraulique",
+      "count": 11226,
+      "individuals": [
+        {
+          "id": "raep:PointDistribution_1",
+          "label": "B150",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_1"
+        },
+        {
+          "id": "raep:PointDistribution_2",
+          "label": "B174",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_2"
+        },
+        {
+          "id": "raep:PointDistribution_3",
+          "label": "B182",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_3"
+        },
+        {
+          "id": "raep:PointDistribution_4",
+          "label": "B193",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_4"
+        },
+        {
+          "id": "raep:PointDistribution_5",
+          "label": "B194",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_5"
+        },
+        {
+          "id": "raep:PointDistribution_6",
+          "label": "B195",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_6"
+        },
+        {
+          "id": "raep:PointDistribution_7",
+          "label": "B196",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_7"
+        },
+        {
+          "id": "raep:PointDistribution_8",
+          "label": "B197",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_8"
+        },
+        {
+          "id": "raep:PointDistribution_9",
+          "label": "B198",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_9"
+        },
+        {
+          "id": "raep:PointDistribution_10",
+          "label": "B199",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_10"
+        },
+        {
+          "id": "raep:PointDistribution_11",
+          "label": "B200",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_11"
+        },
+        {
+          "id": "raep:PointDistribution_12",
+          "label": "B201",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_12"
+        },
+        {
+          "id": "raep:PointDistribution_13",
+          "label": "B202",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_13"
+        },
+        {
+          "id": "raep:PointDistribution_14",
+          "label": "B203",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_14"
+        },
+        {
+          "id": "raep:PointDistribution_15",
+          "label": "B204",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_15"
+        },
+        {
+          "id": "raep:PointDistribution_16",
+          "label": "B205",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_16"
+        },
+        {
+          "id": "raep:PointDistribution_17",
+          "label": "B206",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_17"
+        },
+        {
+          "id": "raep:PointDistribution_18",
+          "label": "B207",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_18"
+        },
+        {
+          "id": "raep:PointDistribution_19",
+          "label": "B208",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_19"
+        },
+        {
+          "id": "raep:PointDistribution_20",
+          "label": "B209",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_20"
+        },
+        {
+          "id": "raep:PointDistribution_21",
+          "label": "B210",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_21"
+        },
+        {
+          "id": "raep:PointDistribution_22",
+          "label": "B211",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_22"
+        },
+        {
+          "id": "raep:PointDistribution_23",
+          "label": "B212",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_23"
+        },
+        {
+          "id": "raep:PointDistribution_24",
+          "label": "B213",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_24"
+        },
+        {
+          "id": "raep:PointDistribution_25",
+          "label": "B214",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_25"
+        },
+        {
+          "id": "raep:PointDistribution_26",
+          "label": "B215",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_26"
+        },
+        {
+          "id": "raep:PointDistribution_27",
+          "label": "B216",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_27"
+        },
+        {
+          "id": "raep:PointDistribution_28",
+          "label": "B217",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_28"
+        },
+        {
+          "id": "raep:PointDistribution_29",
+          "label": "B218",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_29"
+        },
+        {
+          "id": "raep:PointDistribution_30",
+          "label": "B219",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_30"
+        },
+        {
+          "id": "raep:PointDistribution_31",
+          "label": "B220",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_31"
+        },
+        {
+          "id": "raep:PointDistribution_32",
+          "label": "B221",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_32"
+        },
+        {
+          "id": "raep:PointDistribution_33",
+          "label": "B222",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_33"
+        },
+        {
+          "id": "raep:PointDistribution_34",
+          "label": "B223",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_34"
+        },
+        {
+          "id": "raep:PointDistribution_35",
+          "label": "B224",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_35"
+        },
+        {
+          "id": "raep:PointDistribution_36",
+          "label": "B225",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_36"
+        },
+        {
+          "id": "raep:PointDistribution_37",
+          "label": "B226",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_37"
+        },
+        {
+          "id": "raep:PointDistribution_38",
+          "label": "B227",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_38"
+        },
+        {
+          "id": "raep:PointDistribution_39",
+          "label": "B228",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_39"
+        },
+        {
+          "id": "raep:PointDistribution_40",
+          "label": "B229",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_40"
+        },
+        {
+          "id": "raep:PointDistribution_41",
+          "label": "B230",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_41"
+        },
+        {
+          "id": "raep:PointDistribution_42",
+          "label": "B231",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_42"
+        },
+        {
+          "id": "raep:PointDistribution_43",
+          "label": "B232",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_43"
+        },
+        {
+          "id": "raep:PointDistribution_44",
+          "label": "B233",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_44"
+        },
+        {
+          "id": "raep:PointDistribution_45",
+          "label": "B234",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_45"
+        },
+        {
+          "id": "raep:PointDistribution_46",
+          "label": "B235",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_46"
+        },
+        {
+          "id": "raep:PointDistribution_47",
+          "label": "B236",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_47"
+        },
+        {
+          "id": "raep:PointDistribution_48",
+          "label": "B237",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_48"
+        },
+        {
+          "id": "raep:PointDistribution_49",
+          "label": "B238",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_49"
+        },
+        {
+          "id": "raep:PointDistribution_50",
+          "label": "B239",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_50"
+        },
+        {
+          "id": "raep:PointDistribution_51",
+          "label": "B240",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_51"
+        },
+        {
+          "id": "raep:PointDistribution_52",
+          "label": "B241",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_52"
+        },
+        {
+          "id": "raep:PointDistribution_53",
+          "label": "B242",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_53"
+        },
+        {
+          "id": "raep:PointDistribution_54",
+          "label": "B243",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_54"
+        },
+        {
+          "id": "raep:PointDistribution_55",
+          "label": "B244",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_55"
+        },
+        {
+          "id": "raep:PointDistribution_56",
+          "label": "B245",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_56"
+        },
+        {
+          "id": "raep:PointDistribution_57",
+          "label": "B246",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_57"
+        },
+        {
+          "id": "raep:PointDistribution_58",
+          "label": "B247",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_58"
+        },
+        {
+          "id": "raep:PointDistribution_59",
+          "label": "B248",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_59"
+        },
+        {
+          "id": "raep:PointDistribution_60",
+          "label": "B250",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_60"
+        },
+        {
+          "id": "raep:PointDistribution_61",
+          "label": "B251",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_61"
+        },
+        {
+          "id": "raep:PointDistribution_62",
+          "label": "B252",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_62"
+        },
+        {
+          "id": "raep:PointDistribution_63",
+          "label": "B253",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_63"
+        },
+        {
+          "id": "raep:PointDistribution_64",
+          "label": "B254",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_64"
+        },
+        {
+          "id": "raep:PointDistribution_65",
+          "label": "B255",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_65"
+        },
+        {
+          "id": "raep:PointDistribution_66",
+          "label": "B256",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_66"
+        },
+        {
+          "id": "raep:PointDistribution_67",
+          "label": "B257",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_67"
+        },
+        {
+          "id": "raep:PointDistribution_68",
+          "label": "B258",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_68"
+        },
+        {
+          "id": "raep:PointDistribution_69",
+          "label": "B259",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_69"
+        },
+        {
+          "id": "raep:PointDistribution_70",
+          "label": "B260",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_70"
+        },
+        {
+          "id": "raep:PointDistribution_71",
+          "label": "B261",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_71"
+        },
+        {
+          "id": "raep:PointDistribution_72",
+          "label": "B262",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_72"
+        },
+        {
+          "id": "raep:PointDistribution_73",
+          "label": "B263",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_73"
+        },
+        {
+          "id": "raep:PointDistribution_74",
+          "label": "B264",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_74"
+        },
+        {
+          "id": "raep:PointDistribution_75",
+          "label": "B265",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_75"
+        },
+        {
+          "id": "raep:PointDistribution_76",
+          "label": "B266",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_76"
+        },
+        {
+          "id": "raep:PointDistribution_77",
+          "label": "B267",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_77"
+        },
+        {
+          "id": "raep:PointDistribution_78",
+          "label": "B268",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_78"
+        },
+        {
+          "id": "raep:PointDistribution_79",
+          "label": "B269",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_79"
+        },
+        {
+          "id": "raep:PointDistribution_80",
+          "label": "B270",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution_80"
+        }
+      ]
+    },
+    {
+      "class": "raep:ConduiteDistribution",
+      "label": "Conduite de distribution",
+      "group": "InfrastructureHydraulique",
+      "count": 528,
+      "individuals": [
+        {
+          "id": "raep:ConduiteDistribution_1",
+          "label": "EF1->EF36",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_1"
+        },
+        {
+          "id": "raep:ConduiteDistribution_2",
+          "label": "EF7->EF6",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_2"
+        },
+        {
+          "id": "raep:ConduiteDistribution_3",
+          "label": "EF18->EF22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_3"
+        },
+        {
+          "id": "raep:ConduiteDistribution_4",
+          "label": "EF17->EF21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_4"
+        },
+        {
+          "id": "raep:ConduiteDistribution_5",
+          "label": "EF22->EF21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_5"
+        },
+        {
+          "id": "raep:ConduiteDistribution_6",
+          "label": "EF3->EF34",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_6"
+        },
+        {
+          "id": "raep:ConduiteDistribution_7",
+          "label": "EF33->FF28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_7"
+        },
+        {
+          "id": "raep:ConduiteDistribution_8",
+          "label": "EF34->FF28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_8"
+        },
+        {
+          "id": "raep:ConduiteDistribution_9",
+          "label": "EF13->FF10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_9"
+        },
+        {
+          "id": "raep:ConduiteDistribution_10",
+          "label": "FF32->FF12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_10"
+        },
+        {
+          "id": "raep:ConduiteDistribution_11",
+          "label": "EF8->EF7",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_11"
+        },
+        {
+          "id": "raep:ConduiteDistribution_13",
+          "label": "FF9->FF8",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_13"
+        },
+        {
+          "id": "raep:ConduiteDistribution_14",
+          "label": "EF36->FF38",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_14"
+        },
+        {
+          "id": "raep:ConduiteDistribution_15",
+          "label": "FF1->FF27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_15"
+        },
+        {
+          "id": "raep:ConduiteDistribution_16",
+          "label": "EF22->EF23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_16"
+        },
+        {
+          "id": "raep:ConduiteDistribution_17",
+          "label": "EF36->EF3",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_17"
+        },
+        {
+          "id": "raep:ConduiteDistribution_18",
+          "label": "EF15->EF14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_18"
+        },
+        {
+          "id": "raep:ConduiteDistribution_19",
+          "label": "EF23->EF27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_19"
+        },
+        {
+          "id": "raep:ConduiteDistribution_20",
+          "label": "EF30->EF31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_20"
+        },
+        {
+          "id": "raep:ConduiteDistribution_21",
+          "label": "EF28->EF31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_21"
+        },
+        {
+          "id": "raep:ConduiteDistribution_22",
+          "label": "EF29->EF22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_22"
+        },
+        {
+          "id": "raep:ConduiteDistribution_23",
+          "label": "EF24->EF26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_23"
+        },
+        {
+          "id": "raep:ConduiteDistribution_24",
+          "label": "EF20->FF18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_24"
+        },
+        {
+          "id": "raep:ConduiteDistribution_25",
+          "label": "EF16->EF20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_25"
+        },
+        {
+          "id": "raep:ConduiteDistribution_26",
+          "label": "EF23->EF25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_26"
+        },
+        {
+          "id": "raep:ConduiteDistribution_27",
+          "label": "EF25->EF30",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_27"
+        },
+        {
+          "id": "raep:ConduiteDistribution_28",
+          "label": "EF19->EF14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_28"
+        },
+        {
+          "id": "raep:ConduiteDistribution_29",
+          "label": "FF2->FF3",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_29"
+        },
+        {
+          "id": "raep:ConduiteDistribution_30",
+          "label": "FF6->FF3",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_30"
+        },
+        {
+          "id": "raep:ConduiteDistribution_31",
+          "label": "FF11->FF29",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_31"
+        },
+        {
+          "id": "raep:ConduiteDistribution_32",
+          "label": "FF11->FF5",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_32"
+        },
+        {
+          "id": "raep:ConduiteDistribution_33",
+          "label": "FF4->FF7",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_33"
+        },
+        {
+          "id": "raep:ConduiteDistribution_34",
+          "label": "FF3->FF4",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_34"
+        },
+        {
+          "id": "raep:ConduiteDistribution_35",
+          "label": "FF5->FF31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_35"
+        },
+        {
+          "id": "raep:ConduiteDistribution_36",
+          "label": "FF7->FF32",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_36"
+        },
+        {
+          "id": "raep:ConduiteDistribution_37",
+          "label": "FF16->FF15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_37"
+        },
+        {
+          "id": "raep:ConduiteDistribution_38",
+          "label": "FF17->FF16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_38"
+        },
+        {
+          "id": "raep:ConduiteDistribution_39",
+          "label": "FF15->FF17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_39"
+        },
+        {
+          "id": "raep:ConduiteDistribution_40",
+          "label": "FF22->FF17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_40"
+        },
+        {
+          "id": "raep:ConduiteDistribution_41",
+          "label": "FF21->FF22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_41"
+        },
+        {
+          "id": "raep:ConduiteDistribution_42",
+          "label": "FF22->FF23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_42"
+        },
+        {
+          "id": "raep:ConduiteDistribution_43",
+          "label": "FF23->FF24",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_43"
+        },
+        {
+          "id": "raep:ConduiteDistribution_46",
+          "label": "EG1->EF27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_46"
+        },
+        {
+          "id": "raep:ConduiteDistribution_47",
+          "label": "EG2->EF27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_47"
+        },
+        {
+          "id": "raep:ConduiteDistribution_48",
+          "label": "EG1->EG2",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_48"
+        },
+        {
+          "id": "raep:ConduiteDistribution_49",
+          "label": "EG11->EG1",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_49"
+        },
+        {
+          "id": "raep:ConduiteDistribution_50",
+          "label": "EG11->EG2",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_50"
+        },
+        {
+          "id": "raep:ConduiteDistribution_51",
+          "label": "EG15->EG10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_51"
+        },
+        {
+          "id": "raep:ConduiteDistribution_52",
+          "label": "EG7->EG41",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_52"
+        },
+        {
+          "id": "raep:ConduiteDistribution_53",
+          "label": "EG41->EG6",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_53"
+        },
+        {
+          "id": "raep:ConduiteDistribution_54",
+          "label": "EG6->EG8",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_54"
+        },
+        {
+          "id": "raep:ConduiteDistribution_55",
+          "label": "EG8->EG5",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_55"
+        },
+        {
+          "id": "raep:ConduiteDistribution_56",
+          "label": "EG4->EG5",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_56"
+        },
+        {
+          "id": "raep:ConduiteDistribution_57",
+          "label": "EG3->EG32",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_57"
+        },
+        {
+          "id": "raep:ConduiteDistribution_58",
+          "label": "EG32->EG4",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_58"
+        },
+        {
+          "id": "raep:ConduiteDistribution_59",
+          "label": "EG39->EG31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_59"
+        },
+        {
+          "id": "raep:ConduiteDistribution_60",
+          "label": "EG34->EG33",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_60"
+        },
+        {
+          "id": "raep:ConduiteDistribution_61",
+          "label": "EG10->EG16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_61"
+        },
+        {
+          "id": "raep:ConduiteDistribution_62",
+          "label": "EG7->EG36",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_62"
+        },
+        {
+          "id": "raep:ConduiteDistribution_63",
+          "label": "EG39->EG37",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_63"
+        },
+        {
+          "id": "raep:ConduiteDistribution_64",
+          "label": "EG36->EG17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_64"
+        },
+        {
+          "id": "raep:ConduiteDistribution_65",
+          "label": "EG37->EG21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_65"
+        },
+        {
+          "id": "raep:ConduiteDistribution_66",
+          "label": "EG21->EG18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_66"
+        },
+        {
+          "id": "raep:ConduiteDistribution_67",
+          "label": "EG21->EG38",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_67"
+        },
+        {
+          "id": "raep:ConduiteDistribution_68",
+          "label": "EG17->EG20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_68"
+        },
+        {
+          "id": "raep:ConduiteDistribution_69",
+          "label": "EG17->EG37",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_69"
+        },
+        {
+          "id": "raep:ConduiteDistribution_70",
+          "label": "EG12->EG15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_70"
+        },
+        {
+          "id": "raep:ConduiteDistribution_71",
+          "label": "EG12->EG11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_71"
+        },
+        {
+          "id": "raep:ConduiteDistribution_72",
+          "label": "EG35->EG34",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_72"
+        },
+        {
+          "id": "raep:ConduiteDistribution_73",
+          "label": "EG16->EG20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_73"
+        },
+        {
+          "id": "raep:ConduiteDistribution_74",
+          "label": "EG20->EG22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_74"
+        },
+        {
+          "id": "raep:ConduiteDistribution_75",
+          "label": "EG18->EG23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_75"
+        },
+        {
+          "id": "raep:ConduiteDistribution_76",
+          "label": "EG23->EG25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_76"
+        },
+        {
+          "id": "raep:ConduiteDistribution_77",
+          "label": "EG24->EG27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_77"
+        },
+        {
+          "id": "raep:ConduiteDistribution_78",
+          "label": "EG27->EG40",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_78"
+        },
+        {
+          "id": "raep:ConduiteDistribution_79",
+          "label": "EG40->EG30",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_79"
+        },
+        {
+          "id": "raep:ConduiteDistribution_80",
+          "label": "EG27->EG28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_80"
+        },
+        {
+          "id": "raep:ConduiteDistribution_81",
+          "label": "EG24->EG26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_81"
+        },
+        {
+          "id": "raep:ConduiteDistribution_82",
+          "label": "FG14->FG4",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_82"
+        },
+        {
+          "id": "raep:ConduiteDistribution_83",
+          "label": "FG4->FG6",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution_83"
+        }
+      ]
+    },
+    {
+      "class": "raep:EauBrute",
+      "label": "Eau brute",
+      "group": "Observation",
+      "count": 8766,
+      "individuals": [
+        {
+          "id": "raep:EauBrute_1",
+          "label": "2018-01-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_1"
+        },
+        {
+          "id": "raep:EauBrute_2",
+          "label": "2018-01-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_2"
+        },
+        {
+          "id": "raep:EauBrute_3",
+          "label": "2018-01-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_3"
+        },
+        {
+          "id": "raep:EauBrute_4",
+          "label": "2018-01-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_4"
+        },
+        {
+          "id": "raep:EauBrute_5",
+          "label": "2018-01-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_5"
+        },
+        {
+          "id": "raep:EauBrute_6",
+          "label": "2018-01-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_6"
+        },
+        {
+          "id": "raep:EauBrute_7",
+          "label": "2018-01-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_7"
+        },
+        {
+          "id": "raep:EauBrute_8",
+          "label": "2018-01-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_8"
+        },
+        {
+          "id": "raep:EauBrute_9",
+          "label": "2018-01-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_9"
+        },
+        {
+          "id": "raep:EauBrute_10",
+          "label": "2018-01-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_10"
+        },
+        {
+          "id": "raep:EauBrute_11",
+          "label": "2018-01-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_11"
+        },
+        {
+          "id": "raep:EauBrute_12",
+          "label": "2018-01-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_12"
+        },
+        {
+          "id": "raep:EauBrute_13",
+          "label": "2018-01-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_13"
+        },
+        {
+          "id": "raep:EauBrute_14",
+          "label": "2018-01-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_14"
+        },
+        {
+          "id": "raep:EauBrute_15",
+          "label": "2018-01-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_15"
+        },
+        {
+          "id": "raep:EauBrute_16",
+          "label": "2018-01-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_16"
+        },
+        {
+          "id": "raep:EauBrute_17",
+          "label": "2018-01-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_17"
+        },
+        {
+          "id": "raep:EauBrute_18",
+          "label": "2018-01-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_18"
+        },
+        {
+          "id": "raep:EauBrute_19",
+          "label": "2018-01-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_19"
+        },
+        {
+          "id": "raep:EauBrute_20",
+          "label": "2018-01-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_20"
+        },
+        {
+          "id": "raep:EauBrute_21",
+          "label": "2018-01-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_21"
+        },
+        {
+          "id": "raep:EauBrute_22",
+          "label": "2018-01-23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_22"
+        },
+        {
+          "id": "raep:EauBrute_23",
+          "label": "2018-01-24",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_23"
+        },
+        {
+          "id": "raep:EauBrute_24",
+          "label": "2018-01-25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_24"
+        },
+        {
+          "id": "raep:EauBrute_25",
+          "label": "2018-01-26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_25"
+        },
+        {
+          "id": "raep:EauBrute_26",
+          "label": "2018-01-27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_26"
+        },
+        {
+          "id": "raep:EauBrute_27",
+          "label": "2018-01-28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_27"
+        },
+        {
+          "id": "raep:EauBrute_28",
+          "label": "2018-01-29",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_28"
+        },
+        {
+          "id": "raep:EauBrute_29",
+          "label": "2018-01-30",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_29"
+        },
+        {
+          "id": "raep:EauBrute_30",
+          "label": "2018-01-31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_30"
+        },
+        {
+          "id": "raep:EauBrute_31",
+          "label": "2018-02-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_31"
+        },
+        {
+          "id": "raep:EauBrute_32",
+          "label": "2018-02-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_32"
+        },
+        {
+          "id": "raep:EauBrute_33",
+          "label": "2018-02-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_33"
+        },
+        {
+          "id": "raep:EauBrute_34",
+          "label": "2018-02-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_34"
+        },
+        {
+          "id": "raep:EauBrute_35",
+          "label": "2018-02-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_35"
+        },
+        {
+          "id": "raep:EauBrute_36",
+          "label": "2018-02-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_36"
+        },
+        {
+          "id": "raep:EauBrute_37",
+          "label": "2018-02-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_37"
+        },
+        {
+          "id": "raep:EauBrute_38",
+          "label": "2018-02-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_38"
+        },
+        {
+          "id": "raep:EauBrute_39",
+          "label": "2018-02-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_39"
+        },
+        {
+          "id": "raep:EauBrute_40",
+          "label": "2018-02-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_40"
+        },
+        {
+          "id": "raep:EauBrute_41",
+          "label": "2018-02-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_41"
+        },
+        {
+          "id": "raep:EauBrute_42",
+          "label": "2018-02-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_42"
+        },
+        {
+          "id": "raep:EauBrute_43",
+          "label": "2018-02-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_43"
+        },
+        {
+          "id": "raep:EauBrute_44",
+          "label": "2018-02-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_44"
+        },
+        {
+          "id": "raep:EauBrute_45",
+          "label": "2018-02-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_45"
+        },
+        {
+          "id": "raep:EauBrute_46",
+          "label": "2018-02-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_46"
+        },
+        {
+          "id": "raep:EauBrute_47",
+          "label": "2018-02-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_47"
+        },
+        {
+          "id": "raep:EauBrute_48",
+          "label": "2018-02-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_48"
+        },
+        {
+          "id": "raep:EauBrute_49",
+          "label": "2018-02-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_49"
+        },
+        {
+          "id": "raep:EauBrute_50",
+          "label": "2018-02-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_50"
+        },
+        {
+          "id": "raep:EauBrute_51",
+          "label": "2018-02-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_51"
+        },
+        {
+          "id": "raep:EauBrute_52",
+          "label": "2018-02-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_52"
+        },
+        {
+          "id": "raep:EauBrute_53",
+          "label": "2018-02-23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_53"
+        },
+        {
+          "id": "raep:EauBrute_54",
+          "label": "2018-02-24",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_54"
+        },
+        {
+          "id": "raep:EauBrute_55",
+          "label": "2018-02-25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_55"
+        },
+        {
+          "id": "raep:EauBrute_56",
+          "label": "2018-02-26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_56"
+        },
+        {
+          "id": "raep:EauBrute_57",
+          "label": "2018-02-27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_57"
+        },
+        {
+          "id": "raep:EauBrute_58",
+          "label": "2018-02-28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_58"
+        },
+        {
+          "id": "raep:EauBrute_59",
+          "label": "2018-03-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_59"
+        },
+        {
+          "id": "raep:EauBrute_60",
+          "label": "2018-03-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_60"
+        },
+        {
+          "id": "raep:EauBrute_61",
+          "label": "2018-03-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_61"
+        },
+        {
+          "id": "raep:EauBrute_62",
+          "label": "2018-03-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_62"
+        },
+        {
+          "id": "raep:EauBrute_63",
+          "label": "2018-03-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_63"
+        },
+        {
+          "id": "raep:EauBrute_64",
+          "label": "2018-03-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_64"
+        },
+        {
+          "id": "raep:EauBrute_65",
+          "label": "2018-03-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_65"
+        },
+        {
+          "id": "raep:EauBrute_66",
+          "label": "2018-03-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_66"
+        },
+        {
+          "id": "raep:EauBrute_67",
+          "label": "2018-03-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_67"
+        },
+        {
+          "id": "raep:EauBrute_68",
+          "label": "2018-03-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_68"
+        },
+        {
+          "id": "raep:EauBrute_69",
+          "label": "2018-03-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_69"
+        },
+        {
+          "id": "raep:EauBrute_70",
+          "label": "2018-03-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_70"
+        },
+        {
+          "id": "raep:EauBrute_71",
+          "label": "2018-03-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_71"
+        },
+        {
+          "id": "raep:EauBrute_72",
+          "label": "2018-03-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_72"
+        },
+        {
+          "id": "raep:EauBrute_73",
+          "label": "2018-03-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_73"
+        },
+        {
+          "id": "raep:EauBrute_74",
+          "label": "2018-03-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_74"
+        },
+        {
+          "id": "raep:EauBrute_75",
+          "label": "2018-03-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_75"
+        },
+        {
+          "id": "raep:EauBrute_76",
+          "label": "2018-03-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_76"
+        },
+        {
+          "id": "raep:EauBrute_77",
+          "label": "2018-03-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_77"
+        },
+        {
+          "id": "raep:EauBrute_78",
+          "label": "2018-03-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_78"
+        },
+        {
+          "id": "raep:EauBrute_79",
+          "label": "2018-03-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_79"
+        },
+        {
+          "id": "raep:EauBrute_80",
+          "label": "2018-03-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute_80"
+        }
+      ]
+    },
+    {
+      "class": "raep:EauTraitee",
+      "label": "Eau traitee",
+      "group": "Observation",
+      "count": 8766,
+      "individuals": [
+        {
+          "id": "raep:EauTraitee_1",
+          "label": "2018-01-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_1"
+        },
+        {
+          "id": "raep:EauTraitee_2",
+          "label": "2018-01-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_2"
+        },
+        {
+          "id": "raep:EauTraitee_3",
+          "label": "2018-01-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_3"
+        },
+        {
+          "id": "raep:EauTraitee_4",
+          "label": "2018-01-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_4"
+        },
+        {
+          "id": "raep:EauTraitee_5",
+          "label": "2018-01-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_5"
+        },
+        {
+          "id": "raep:EauTraitee_6",
+          "label": "2018-01-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_6"
+        },
+        {
+          "id": "raep:EauTraitee_7",
+          "label": "2018-01-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_7"
+        },
+        {
+          "id": "raep:EauTraitee_8",
+          "label": "2018-01-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_8"
+        },
+        {
+          "id": "raep:EauTraitee_9",
+          "label": "2018-01-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_9"
+        },
+        {
+          "id": "raep:EauTraitee_10",
+          "label": "2018-01-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_10"
+        },
+        {
+          "id": "raep:EauTraitee_11",
+          "label": "2018-01-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_11"
+        },
+        {
+          "id": "raep:EauTraitee_12",
+          "label": "2018-01-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_12"
+        },
+        {
+          "id": "raep:EauTraitee_13",
+          "label": "2018-01-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_13"
+        },
+        {
+          "id": "raep:EauTraitee_14",
+          "label": "2018-01-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_14"
+        },
+        {
+          "id": "raep:EauTraitee_15",
+          "label": "2018-01-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_15"
+        },
+        {
+          "id": "raep:EauTraitee_16",
+          "label": "2018-01-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_16"
+        },
+        {
+          "id": "raep:EauTraitee_17",
+          "label": "2018-01-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_17"
+        },
+        {
+          "id": "raep:EauTraitee_18",
+          "label": "2018-01-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_18"
+        },
+        {
+          "id": "raep:EauTraitee_19",
+          "label": "2018-01-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_19"
+        },
+        {
+          "id": "raep:EauTraitee_20",
+          "label": "2018-01-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_20"
+        },
+        {
+          "id": "raep:EauTraitee_21",
+          "label": "2018-01-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_21"
+        },
+        {
+          "id": "raep:EauTraitee_22",
+          "label": "2018-01-23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_22"
+        },
+        {
+          "id": "raep:EauTraitee_23",
+          "label": "2018-01-24",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_23"
+        },
+        {
+          "id": "raep:EauTraitee_24",
+          "label": "2018-01-25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_24"
+        },
+        {
+          "id": "raep:EauTraitee_25",
+          "label": "2018-01-26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_25"
+        },
+        {
+          "id": "raep:EauTraitee_26",
+          "label": "2018-01-27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_26"
+        },
+        {
+          "id": "raep:EauTraitee_27",
+          "label": "2018-01-28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_27"
+        },
+        {
+          "id": "raep:EauTraitee_28",
+          "label": "2018-01-29",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_28"
+        },
+        {
+          "id": "raep:EauTraitee_29",
+          "label": "2018-01-30",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_29"
+        },
+        {
+          "id": "raep:EauTraitee_30",
+          "label": "2018-01-31",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_30"
+        },
+        {
+          "id": "raep:EauTraitee_31",
+          "label": "2018-02-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_31"
+        },
+        {
+          "id": "raep:EauTraitee_32",
+          "label": "2018-02-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_32"
+        },
+        {
+          "id": "raep:EauTraitee_33",
+          "label": "2018-02-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_33"
+        },
+        {
+          "id": "raep:EauTraitee_34",
+          "label": "2018-02-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_34"
+        },
+        {
+          "id": "raep:EauTraitee_35",
+          "label": "2018-02-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_35"
+        },
+        {
+          "id": "raep:EauTraitee_36",
+          "label": "2018-02-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_36"
+        },
+        {
+          "id": "raep:EauTraitee_37",
+          "label": "2018-02-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_37"
+        },
+        {
+          "id": "raep:EauTraitee_38",
+          "label": "2018-02-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_38"
+        },
+        {
+          "id": "raep:EauTraitee_39",
+          "label": "2018-02-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_39"
+        },
+        {
+          "id": "raep:EauTraitee_40",
+          "label": "2018-02-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_40"
+        },
+        {
+          "id": "raep:EauTraitee_41",
+          "label": "2018-02-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_41"
+        },
+        {
+          "id": "raep:EauTraitee_42",
+          "label": "2018-02-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_42"
+        },
+        {
+          "id": "raep:EauTraitee_43",
+          "label": "2018-02-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_43"
+        },
+        {
+          "id": "raep:EauTraitee_44",
+          "label": "2018-02-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_44"
+        },
+        {
+          "id": "raep:EauTraitee_45",
+          "label": "2018-02-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_45"
+        },
+        {
+          "id": "raep:EauTraitee_46",
+          "label": "2018-02-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_46"
+        },
+        {
+          "id": "raep:EauTraitee_47",
+          "label": "2018-02-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_47"
+        },
+        {
+          "id": "raep:EauTraitee_48",
+          "label": "2018-02-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_48"
+        },
+        {
+          "id": "raep:EauTraitee_49",
+          "label": "2018-02-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_49"
+        },
+        {
+          "id": "raep:EauTraitee_50",
+          "label": "2018-02-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_50"
+        },
+        {
+          "id": "raep:EauTraitee_51",
+          "label": "2018-02-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_51"
+        },
+        {
+          "id": "raep:EauTraitee_52",
+          "label": "2018-02-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_52"
+        },
+        {
+          "id": "raep:EauTraitee_53",
+          "label": "2018-02-23",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_53"
+        },
+        {
+          "id": "raep:EauTraitee_54",
+          "label": "2018-02-24",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_54"
+        },
+        {
+          "id": "raep:EauTraitee_55",
+          "label": "2018-02-25",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_55"
+        },
+        {
+          "id": "raep:EauTraitee_56",
+          "label": "2018-02-26",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_56"
+        },
+        {
+          "id": "raep:EauTraitee_57",
+          "label": "2018-02-27",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_57"
+        },
+        {
+          "id": "raep:EauTraitee_58",
+          "label": "2018-02-28",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_58"
+        },
+        {
+          "id": "raep:EauTraitee_59",
+          "label": "2018-03-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_59"
+        },
+        {
+          "id": "raep:EauTraitee_60",
+          "label": "2018-03-02",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_60"
+        },
+        {
+          "id": "raep:EauTraitee_61",
+          "label": "2018-03-03",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_61"
+        },
+        {
+          "id": "raep:EauTraitee_62",
+          "label": "2018-03-04",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_62"
+        },
+        {
+          "id": "raep:EauTraitee_63",
+          "label": "2018-03-05",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_63"
+        },
+        {
+          "id": "raep:EauTraitee_64",
+          "label": "2018-03-06",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_64"
+        },
+        {
+          "id": "raep:EauTraitee_65",
+          "label": "2018-03-07",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_65"
+        },
+        {
+          "id": "raep:EauTraitee_66",
+          "label": "2018-03-08",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_66"
+        },
+        {
+          "id": "raep:EauTraitee_67",
+          "label": "2018-03-09",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_67"
+        },
+        {
+          "id": "raep:EauTraitee_68",
+          "label": "2018-03-10",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_68"
+        },
+        {
+          "id": "raep:EauTraitee_69",
+          "label": "2018-03-11",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_69"
+        },
+        {
+          "id": "raep:EauTraitee_70",
+          "label": "2018-03-12",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_70"
+        },
+        {
+          "id": "raep:EauTraitee_71",
+          "label": "2018-03-13",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_71"
+        },
+        {
+          "id": "raep:EauTraitee_72",
+          "label": "2018-03-14",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_72"
+        },
+        {
+          "id": "raep:EauTraitee_73",
+          "label": "2018-03-15",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_73"
+        },
+        {
+          "id": "raep:EauTraitee_74",
+          "label": "2018-03-16",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_74"
+        },
+        {
+          "id": "raep:EauTraitee_75",
+          "label": "2018-03-17",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_75"
+        },
+        {
+          "id": "raep:EauTraitee_76",
+          "label": "2018-03-18",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_76"
+        },
+        {
+          "id": "raep:EauTraitee_77",
+          "label": "2018-03-19",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_77"
+        },
+        {
+          "id": "raep:EauTraitee_78",
+          "label": "2018-03-20",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_78"
+        },
+        {
+          "id": "raep:EauTraitee_79",
+          "label": "2018-03-21",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_79"
+        },
+        {
+          "id": "raep:EauTraitee_80",
+          "label": "2018-03-22",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee_80"
+        }
+      ]
+    },
+    {
+      "class": "raep:EauDistribuee",
+      "label": "Eau distribuee",
+      "group": "Observation",
+      "count": 526724,
+      "individuals": [
+        {
+          "id": "raep:EauDistribuee_1",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_1"
+        },
+        {
+          "id": "raep:EauDistribuee_2",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_2"
+        },
+        {
+          "id": "raep:EauDistribuee_3",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_3"
+        },
+        {
+          "id": "raep:EauDistribuee_4",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_4"
+        },
+        {
+          "id": "raep:EauDistribuee_5",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_5"
+        },
+        {
+          "id": "raep:EauDistribuee_6",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_6"
+        },
+        {
+          "id": "raep:EauDistribuee_7",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_7"
+        },
+        {
+          "id": "raep:EauDistribuee_8",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_8"
+        },
+        {
+          "id": "raep:EauDistribuee_9",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_9"
+        },
+        {
+          "id": "raep:EauDistribuee_10",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_10"
+        },
+        {
+          "id": "raep:EauDistribuee_11",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_11"
+        },
+        {
+          "id": "raep:EauDistribuee_12",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_12"
+        },
+        {
+          "id": "raep:EauDistribuee_13",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_13"
+        },
+        {
+          "id": "raep:EauDistribuee_14",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_14"
+        },
+        {
+          "id": "raep:EauDistribuee_15",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_15"
+        },
+        {
+          "id": "raep:EauDistribuee_16",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_16"
+        },
+        {
+          "id": "raep:EauDistribuee_17",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_17"
+        },
+        {
+          "id": "raep:EauDistribuee_18",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_18"
+        },
+        {
+          "id": "raep:EauDistribuee_19",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_19"
+        },
+        {
+          "id": "raep:EauDistribuee_20",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_20"
+        },
+        {
+          "id": "raep:EauDistribuee_21",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_21"
+        },
+        {
+          "id": "raep:EauDistribuee_22",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_22"
+        },
+        {
+          "id": "raep:EauDistribuee_23",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_23"
+        },
+        {
+          "id": "raep:EauDistribuee_24",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_24"
+        },
+        {
+          "id": "raep:EauDistribuee_25",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_25"
+        },
+        {
+          "id": "raep:EauDistribuee_26",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_26"
+        },
+        {
+          "id": "raep:EauDistribuee_27",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_27"
+        },
+        {
+          "id": "raep:EauDistribuee_28",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_28"
+        },
+        {
+          "id": "raep:EauDistribuee_29",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_29"
+        },
+        {
+          "id": "raep:EauDistribuee_30",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_30"
+        },
+        {
+          "id": "raep:EauDistribuee_31",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_31"
+        },
+        {
+          "id": "raep:EauDistribuee_32",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_32"
+        },
+        {
+          "id": "raep:EauDistribuee_33",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_33"
+        },
+        {
+          "id": "raep:EauDistribuee_34",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_34"
+        },
+        {
+          "id": "raep:EauDistribuee_35",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_35"
+        },
+        {
+          "id": "raep:EauDistribuee_36",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_36"
+        },
+        {
+          "id": "raep:EauDistribuee_37",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_37"
+        },
+        {
+          "id": "raep:EauDistribuee_38",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_38"
+        },
+        {
+          "id": "raep:EauDistribuee_39",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_39"
+        },
+        {
+          "id": "raep:EauDistribuee_40",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_40"
+        },
+        {
+          "id": "raep:EauDistribuee_41",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_41"
+        },
+        {
+          "id": "raep:EauDistribuee_42",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_42"
+        },
+        {
+          "id": "raep:EauDistribuee_43",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_43"
+        },
+        {
+          "id": "raep:EauDistribuee_44",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_44"
+        },
+        {
+          "id": "raep:EauDistribuee_45",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_45"
+        },
+        {
+          "id": "raep:EauDistribuee_46",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_46"
+        },
+        {
+          "id": "raep:EauDistribuee_47",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_47"
+        },
+        {
+          "id": "raep:EauDistribuee_48",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_48"
+        },
+        {
+          "id": "raep:EauDistribuee_49",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_49"
+        },
+        {
+          "id": "raep:EauDistribuee_50",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_50"
+        },
+        {
+          "id": "raep:EauDistribuee_51",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_51"
+        },
+        {
+          "id": "raep:EauDistribuee_52",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_52"
+        },
+        {
+          "id": "raep:EauDistribuee_53",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_53"
+        },
+        {
+          "id": "raep:EauDistribuee_54",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_54"
+        },
+        {
+          "id": "raep:EauDistribuee_55",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_55"
+        },
+        {
+          "id": "raep:EauDistribuee_56",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_56"
+        },
+        {
+          "id": "raep:EauDistribuee_57",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_57"
+        },
+        {
+          "id": "raep:EauDistribuee_58",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_58"
+        },
+        {
+          "id": "raep:EauDistribuee_59",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_59"
+        },
+        {
+          "id": "raep:EauDistribuee_60",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_60"
+        },
+        {
+          "id": "raep:EauDistribuee_61",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_61"
+        },
+        {
+          "id": "raep:EauDistribuee_62",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_62"
+        },
+        {
+          "id": "raep:EauDistribuee_63",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_63"
+        },
+        {
+          "id": "raep:EauDistribuee_64",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_64"
+        },
+        {
+          "id": "raep:EauDistribuee_65",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_65"
+        },
+        {
+          "id": "raep:EauDistribuee_66",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_66"
+        },
+        {
+          "id": "raep:EauDistribuee_67",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_67"
+        },
+        {
+          "id": "raep:EauDistribuee_68",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_68"
+        },
+        {
+          "id": "raep:EauDistribuee_69",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_69"
+        },
+        {
+          "id": "raep:EauDistribuee_70",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_70"
+        },
+        {
+          "id": "raep:EauDistribuee_71",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_71"
+        },
+        {
+          "id": "raep:EauDistribuee_72",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_72"
+        },
+        {
+          "id": "raep:EauDistribuee_73",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_73"
+        },
+        {
+          "id": "raep:EauDistribuee_74",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_74"
+        },
+        {
+          "id": "raep:EauDistribuee_75",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_75"
+        },
+        {
+          "id": "raep:EauDistribuee_76",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_76"
+        },
+        {
+          "id": "raep:EauDistribuee_77",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_77"
+        },
+        {
+          "id": "raep:EauDistribuee_78",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_78"
+        },
+        {
+          "id": "raep:EauDistribuee_79",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_79"
+        },
+        {
+          "id": "raep:EauDistribuee_80",
+          "label": "2020-12-01",
+          "iri": "http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee_80"
+        }
+      ]
+    }
+  ],
+  "table_counts": {
+    "commune": 92,
+    "quartier": 787,
+    "captage": 8,
+    "station_traitement": 3,
+    "reservoir": 6,
+    "point_de_distribution": 11226,
+    "conduite_de_distribution": 11226,
+    "conduite_adduction": 0,
+    "conduite_amenee": 0,
+    "reservoir_reservoir": 3,
+    "eau_brute": 8766,
+    "eau_traite": 8766,
+    "eau_distribue": 526724,
+    "noeud": 0,
+    "noeud_consommation": 526,
+    "conduite_noeud": 0
+  },
+  "triple_count": 3435498
+}

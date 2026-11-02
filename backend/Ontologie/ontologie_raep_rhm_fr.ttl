@@ -1,0 +1,467 @@
+@prefix : <http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix raep: <http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/> .
+
+<http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm> rdf:type owl:Ontology ;
+                                                               dcterms:description "Socle ontologique issu du MCD d'un reseau d'adduction d'eau potable. Ce modele sert de preuve de faisabilite pour la construction d'un graphe de connaissance integrable a l'application."@fr ;
+                                                               dcterms:title "Ontologie RAEP-RHM"@fr ;
+                                                               rdfs:label "Ontologie du reseau d'adduction d'eau potable RHM"@fr ;
+                                                               owl:versionInfo "0.1.0 - preuve de faisabilite" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+skos:note rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/alimente
+raep:alimente rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf raep:RelationsHydrauliques ;
+              owl:inverseOf raep:estAlimentePar ;
+              rdfs:domain raep:InfrastructureHydraulique ;
+              rdfs:range raep:InfrastructureHydraulique ;
+              rdfs:label "alimente"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/appartientACommune
+raep:appartientACommune rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf raep:LocalisationAdministrative ;
+                        rdfs:domain raep:Quartier ;
+                        rdfs:range raep:Commune ;
+                        rdfs:label "appartient a commune"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/connecteA
+raep:connecteA rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
+               rdfs:subPropertyOf raep:RelationsHydrauliques ;
+               rdfs:domain raep:InfrastructureHydraulique ;
+               rdfs:range raep:InfrastructureHydraulique ;
+               rdfs:label "connecte a"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/contient
+raep:contient rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf raep:LocalisationAdministrative ;
+              owl:inverseOf raep:seSitueDans ;
+              rdfs:domain raep:EntiteAdministrative ;
+              rdfs:range owl:Thing ;
+              rdfs:label "contient"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/enregistre
+raep:enregistre rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf raep:SuiviObservation ;
+                owl:inverseOf raep:estEnregistrePar ;
+                rdfs:domain raep:InfrastructureHydraulique ;
+                rdfs:range raep:Observation ;
+                rdfs:label "enregistre"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/estAlimentePar
+raep:estAlimentePar rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf raep:RelationsHydrauliques ;
+                    rdfs:domain raep:InfrastructureHydraulique ;
+                    rdfs:range raep:InfrastructureHydraulique ;
+                    rdfs:label "est alimente par"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/estEnregistrePar
+raep:estEnregistrePar rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf raep:SuiviObservation ;
+                      rdfs:domain raep:Observation ;
+                      rdfs:range raep:InfrastructureHydraulique ;
+                      rdfs:label "est enregistre par"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/seSitueDans
+raep:seSitueDans rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf raep:LocalisationAdministrative ;
+                 rdfs:domain owl:Thing ;
+                 rdfs:range raep:EntiteAdministrative ;
+                 rdfs:label "se situe dans"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/RelationsHydrauliques
+raep:RelationsHydrauliques rdf:type owl:ObjectProperty ;
+                           rdfs:label "RelationsHydrauliques"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/LocalisationAdministrative
+raep:LocalisationAdministrative rdf:type owl:ObjectProperty ;
+                                rdfs:label "LocalisationAdministrative"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/SuiviObservation
+raep:SuiviObservation rdf:type owl:ObjectProperty ;
+                      rdfs:label "SuiviObservation"@fr .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.opengis.net/ont/geosparql#asWKT
+geo:asWKT rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf raep:AttributsCaptage ,
+                             raep:AttributsStationTraitement ,
+                             raep:AttributsReservoir ,
+                             raep:AttributsPointDistribution ,
+                             raep:AttributsConduiteAmenee ,
+                             raep:AttributsConduiteAdduction ,
+                             raep:AttributsConduiteDistribution ,
+                             raep:AttributsQuartier ,
+                             raep:AttributsCommune ;
+          rdfs:label "GEOM"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/capacite
+raep:capacite rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf raep:AttributsStationTraitement ;
+              rdfs:domain raep:StationTraitement ;
+              rdfs:range xsd:decimal ;
+              rdfs:label "capacite"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/codeCommune
+raep:codeCommune rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf raep:AttributsCommune ;
+                 rdfs:domain raep:Commune ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "code commune"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/codeQuartier
+raep:codeQuartier rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf raep:AttributsQuartier ;
+                  rdfs:domain raep:Quartier ;
+                  rdfs:range xsd:string ;
+                  rdfs:label "code quartier"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/dateObservation
+raep:dateObservation rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf raep:AttributsCaptage ,
+                                        raep:AttributsEauBrute ,
+                                        raep:AttributsEauTraitee ,
+                                        raep:AttributsEauDistribuee ;
+                     rdfs:domain raep:Observation ;
+                     rdfs:range xsd:dateTime ;
+                     rdfs:label "date d'observation"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/debit
+raep:debit rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf raep:AttributsCaptage ;
+           rdfs:domain raep:Captage ;
+           rdfs:range xsd:decimal ;
+           rdfs:label "debit"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/demande
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/elevation
+raep:elevation rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf raep:AttributsStationTraitement ;
+               rdfs:domain raep:StationTraitement ;
+               rdfs:range xsd:decimal ;
+               rdfs:label "elevation"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/identifiant
+raep:identifiant rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf raep:AttributsCaptage ,
+                                    raep:AttributsStationTraitement ,
+                                    raep:AttributsReservoir ,
+                                    raep:AttributsPointDistribution ,
+                                    raep:AttributsConduiteAmenee ,
+                                    raep:AttributsConduiteAdduction ,
+                                    raep:AttributsConduiteDistribution ,
+                                    raep:AttributsQuartier ,
+                                    raep:AttributsCommune ,
+                                    raep:AttributsEauBrute ,
+                                    raep:AttributsEauTraitee ,
+                                    raep:AttributsEauDistribuee ;
+                 rdfs:domain owl:Thing ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "identifiant"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/libelle
+raep:libelle rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf raep:AttributsCaptage ,
+                                raep:AttributsStationTraitement ,
+                                raep:AttributsConduiteAmenee ,
+                                raep:AttributsConduiteAdduction ,
+                                raep:AttributsConduiteDistribution ,
+                                raep:AttributsQuartier ,
+                                raep:AttributsCommune ;
+             rdfs:domain owl:Thing ;
+             rdfs:range rdfs:Literal ;
+             rdfs:label "libelle"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/longueur
+raep:longueur rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf raep:AttributsConduiteAmenee ,
+                                 raep:AttributsConduiteAdduction ,
+                                 raep:AttributsConduiteDistribution ;
+              rdfs:domain raep:InfrastructureHydraulique ;
+              rdfs:range xsd:decimal ;
+              rdfs:label "longueur"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/materiau
+raep:materiau rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf raep:AttributsReservoir ,
+                                 raep:AttributsConduiteAmenee ,
+                                 raep:AttributsConduiteAdduction ,
+                                 raep:AttributsConduiteDistribution ;
+              rdfs:domain raep:InfrastructureHydraulique ;
+              rdfs:range xsd:string ;
+              rdfs:label "materiau"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/population
+raep:population rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf raep:AttributsQuartier ,
+                                   raep:AttributsCommune ;
+                rdfs:domain raep:EntiteAdministrative ;
+                rdfs:range xsd:decimal ;
+                rdfs:label "population"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/quantite
+raep:quantite rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf raep:AttributsEauBrute ,
+                                 raep:AttributsEauTraitee ,
+                                 raep:AttributsEauDistribuee ;
+              rdfs:domain raep:Observation ;
+              rdfs:range xsd:decimal ;
+              rdfs:label "quantite"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/referenceBorne
+raep:referenceBorne rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf raep:AttributsPointDistribution ;
+                    rdfs:domain raep:PointDistribution ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "reference borne"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/typeOuvrage
+raep:typeOuvrage rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf raep:AttributsCaptage ,
+                                    raep:AttributsPointDistribution ;
+                 rdfs:domain raep:InfrastructureHydraulique ;
+                 rdfs:range xsd:string ;
+                 rdfs:label "type d'ouvrage"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/volumeM3
+raep:volumeM3 rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf raep:AttributsReservoir ;
+              rdfs:domain raep:Reservoir ;
+              rdfs:range xsd:decimal ;
+              rdfs:label "volume en m3"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsCaptage
+raep:AttributsCaptage rdf:type owl:DatatypeProperty ;
+                      rdfs:label "Captage"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsStationTraitement
+raep:AttributsStationTraitement rdf:type owl:DatatypeProperty ;
+                                rdfs:label "StationTraitement"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsReservoir
+raep:AttributsReservoir rdf:type owl:DatatypeProperty ;
+                        rdfs:label "Reservoir"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsPointDistribution
+raep:AttributsPointDistribution rdf:type owl:DatatypeProperty ;
+                                rdfs:label "PointDistribution"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsConduiteAmenee
+raep:AttributsConduiteAmenee rdf:type owl:DatatypeProperty ;
+                             rdfs:label "ConduiteAmenee"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsConduiteAdduction
+raep:AttributsConduiteAdduction rdf:type owl:DatatypeProperty ;
+                                rdfs:label "ConduiteAdduction"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsConduiteDistribution
+raep:AttributsConduiteDistribution rdf:type owl:DatatypeProperty ;
+                                   rdfs:label "ConduiteDistribution"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsQuartier
+raep:AttributsQuartier rdf:type owl:DatatypeProperty ;
+                       rdfs:label "Quartier"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsCommune
+raep:AttributsCommune rdf:type owl:DatatypeProperty ;
+                      rdfs:label "Commune"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsEauBrute
+raep:AttributsEauBrute rdf:type owl:DatatypeProperty ;
+                       rdfs:label "EauBrute"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsEauTraitee
+raep:AttributsEauTraitee rdf:type owl:DatatypeProperty ;
+                         rdfs:label "EauTraitee"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/AttributsEauDistribuee
+raep:AttributsEauDistribuee rdf:type owl:DatatypeProperty ;
+                            rdfs:label "EauDistribuee"@fr .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/InfrastructureHydraulique
+raep:InfrastructureHydraulique rdf:type owl:Class ;
+                               rdfs:label "InfrastructureHydraulique"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EntiteAdministrative
+raep:EntiteAdministrative rdf:type owl:Class ;
+                          rdfs:label "EntiteAdministrative"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Observation
+raep:Observation rdf:type owl:Class ;
+                 rdfs:label "Observation"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Captage
+raep:Captage rdf:type owl:Class ;
+             rdfs:subClassOf raep:InfrastructureHydraulique ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty raep:enregistre ;
+                               owl:someValuesFrom raep:EauBrute
+                             ] ;
+             rdfs:label "Captage"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Commune
+raep:Commune rdf:type owl:Class ;
+             rdfs:subClassOf raep:EntiteAdministrative ;
+             rdfs:label "Commune"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteAdduction
+raep:ConduiteAdduction rdf:type owl:Class ;
+                       rdfs:subClassOf raep:InfrastructureHydraulique ;
+                       rdfs:label "Conduite d'adduction"@fr ;
+                       skos:note "Classe conservee meme si les donnees de conduite d'adduction ne sont pas encore disponibles."@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteAmenee
+raep:ConduiteAmenee rdf:type owl:Class ;
+                    rdfs:subClassOf raep:InfrastructureHydraulique ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty raep:connecteA ;
+                                      owl:someValuesFrom raep:Captage
+                                    ] ;
+                    rdfs:label "Conduite amenee"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/ConduiteDistribution
+raep:ConduiteDistribution rdf:type owl:Class ;
+                          rdfs:subClassOf raep:InfrastructureHydraulique ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty raep:connecteA ;
+                                            owl:someValuesFrom raep:PointDistribution
+                                          ] ;
+                          rdfs:label "Conduite de distribution"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauBrute
+raep:EauBrute rdf:type owl:Class ;
+              rdfs:subClassOf raep:Observation ;
+              rdfs:label "Eau brute"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauDistribuee
+raep:EauDistribuee rdf:type owl:Class ;
+                   rdfs:subClassOf raep:Observation ;
+                   rdfs:label "Eau distribuee"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/EauTraitee
+raep:EauTraitee rdf:type owl:Class ;
+                rdfs:subClassOf raep:Observation ;
+                rdfs:label "Eau traitee"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/PointDistribution
+raep:PointDistribution rdf:type owl:Class ;
+                       rdfs:subClassOf raep:InfrastructureHydraulique ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty raep:enregistre ;
+                                         owl:someValuesFrom raep:EauDistribuee
+                                       ] ;
+                       rdfs:label "Point de distribution"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Quartier
+raep:Quartier rdf:type owl:Class ;
+              rdfs:subClassOf raep:EntiteAdministrative ;
+              rdfs:label "Quartier"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/Reservoir
+raep:Reservoir rdf:type owl:Class ;
+               rdfs:subClassOf raep:InfrastructureHydraulique ;
+               rdfs:label "Reservoir"@fr .
+
+
+###  http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/StationTraitement
+raep:StationTraitement rdf:type owl:Class ;
+                       rdfs:subClassOf raep:InfrastructureHydraulique ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty raep:enregistre ;
+                                         owl:someValuesFrom raep:EauTraitee
+                                       ] ;
+                       rdfs:label "Station de traitement"@fr .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

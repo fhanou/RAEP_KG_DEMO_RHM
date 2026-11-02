@@ -1,0 +1,114 @@
+PREFIX raep: <http://www.semanticweb.org/hayit/ontologies/2026/5/raep-rhm/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+################################################################################
+# 1. Spatial Infrastructures with GeoSPARQL WKT Geometries (Interactive Map)
+################################################################################
+
+SELECT ?infrastructure ?type ?name ?wkt
+WHERE {
+  ?infrastructure rdf:type ?type ;
+                  geo:hasGeometry/geo:asWKT ?wkt .
+  OPTIONAL { ?infrastructure raep:label ?name . }
+  OPTIONAL { ?infrastructure raep:standpipeReference ?name . }
+  FILTER (?type != owl:NamedIndividual)
+}
+LIMIT 100
+
+################################################################################
+# 2. Count Individuals by Conceptual Entity Class
+################################################################################
+
+SELECT ?class (COUNT(?individual) AS ?count)
+WHERE {
+  ?individual rdf:type ?class .
+  VALUES ?class {
+    raep:Municipality
+    raep:Neighborhood
+    raep:WaterIntake
+    raep:WaterTreatmentPlant
+    raep:WaterReservoir
+    raep:DistributionPoint
+    raep:DistributionConduit
+    raep:RawWater
+    raep:TreatedWater
+    raep:DistributedWater
+  }
+}
+GROUP BY ?class
+ORDER BY ?class
+
+################################################################################
+# 3. List Water Reservoirs with Storage Volume and Administrative Location
+################################################################################
+
+SELECT ?reservoir ?reservoirName ?neighborhood ?neighborhoodName ?volume
+WHERE {
+  ?reservoir rdf:type raep:WaterReservoir ;
+             raep:label ?reservoirName ;
+             raep:isLocatedIn ?neighborhood .
+  OPTIONAL { ?reservoir raep:volumeM3 ?volume . }
+  OPTIONAL { ?neighborhood raep:label ?neighborhoodName . }
+}
+ORDER BY ?reservoir
+
+################################################################################
+# 4. Water Intakes (Barrage & Pumping Stations) with Location & Structure Type
+################################################################################
+
+SELECT ?intake ?label ?structureType ?neighborhood
+WHERE {
+  ?intake rdf:type raep:WaterIntake ;
+          raep:label ?label ;
+          raep:structureType ?structureType ;
+          raep:isLocatedIn ?neighborhood .
+}
+ORDER BY ?intake
+
+################################################################################
+# 5. List Distribution Standpipes with Monitored Distributed Water Quantities
+################################################################################
+
+SELECT ?observation ?date ?quantity ?point ?tapRef ?neighborhood
+WHERE {
+  ?observation rdf:type raep:DistributedWater ;
+               raep:observationDate ?date ;
+               raep:quantity ?quantity ;
+               raep:isRecordedBy ?point .
+  OPTIONAL { ?point raep:standpipeReference ?tapRef . }
+  OPTIONAL { ?point raep:isLocatedIn ?neighborhood . }
+}
+ORDER BY ?date ?point
+LIMIT 50
+
+################################################################################
+# 6. Hydraulic Network Topology (Conduit and Infrastructure Connections)
+################################################################################
+
+SELECT ?sourceInfrastructure ?targetInfrastructure
+WHERE {
+  ?sourceInfrastructure raep:connectedTo ?targetInfrastructure .
+}
+LIMIT 100
+
+################################################################################
+# 7. Hydraulic Water Supply Flow (supplies relation)
+################################################################################
+
+SELECT ?supplier ?consumer
+WHERE {
+  ?supplier raep:supplies ?consumer .
+}
+LIMIT 100
+
+################################################################################
+# 8. Administrative Hierarchy (Neighborhoods belonging to Municipalities)
+################################################################################
+
+SELECT ?neighborhood ?municipality
+WHERE {
+  ?neighborhood raep:belongsToMunicipality ?municipality .
+}
+LIMIT 100
