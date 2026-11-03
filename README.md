@@ -11,7 +11,7 @@ The platform bridges Semantic Web technologies (OWL 2, GeoSPARQL) and Geographic
 
 The user workflow and interactive features are demonstrated in the video accessible below:
 
-* Demonstration video link: [Demonstration Video (Google Drive)](https://drive.google.com/file/d/1VCFxNo5_cPEo3HExoYrgNTWt8QJSbjg9/view?usp=sharing) 
+* Demonstration video link: https://zenodo.org/records/23915004 
 
 ---
 
